@@ -44,6 +44,7 @@ header{
 }
 
 
+
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
@@ -123,12 +124,12 @@ main h2{
     font-family: var(--fonte-android);
 }
 
-main img{
+main img {
     max-width: 800px;
-    width: 100%;
+    width: 90%;
     display: block;       
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 main img.pequeno {
