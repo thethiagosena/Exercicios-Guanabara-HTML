@@ -1,33 +1,20 @@
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    div.bloco{
-        background-image: url(imagens/wallpaper002.jpg);
-        background-repeat: no-repeat;
-        height: 100px;
-        border: 1px solid black;
-        border-radius: 20px;
-        margin: 10px;
-        background-
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    }
 
-    div#q1{
-        background-position: left top;
-        height: 98vh;
-    }
+}
 
-    
-    div#q2{
-        background-position: left center;
-    }
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
 
-    div#q3{
-        background-position: right bottom;
-    }
-
-    div#q4{
-        background-position: center center;
-    }
+}
