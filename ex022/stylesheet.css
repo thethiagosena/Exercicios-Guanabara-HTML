@@ -1,29 +1,33 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    div.bloco{
+        background-image: url(imagens/wallpaper002.jpg);
+        background-repeat: no-repeat;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 10px;
+        background-
 
+    }
 
+    div#q1{
+        background-position: left top;
+        height: 98vh;
+    }
 
-body{
-    background-image: url("imagens/wallpaper001.jpg");
-}
+    
+    div#q2{
+        background-position: left center;
+    }
 
-div.quadrado{
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: lightgray;
+    div#q3{
+        background-position: right bottom;
+    }
 
-}
-
-div#q1{
-    background-color: skyblue;
-}
-
-div#q2{
-    background-image: linear-gradient(to bottom, yellow, orange);
-}
-
-
-div#q3{
-    background-image: url('imagens/pattern003.png');
-}
+    div#q4{
+        background-position: center center;
+    }
